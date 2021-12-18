@@ -146,14 +146,15 @@ if(valor==true) return 'Soy verdadero'
   else return 'Soy falso'
 }
 
-function tablaDelSeis(multiplo){
+function tablaDelSeis(){
   //Escribe una función que muestre la tabla de multiplicar del 6 (del 0 al 60).
   //La función devuelve un array con los resultados de la tabla de multiplicar del 6 en orden creciente.
   //Escribe tu código aquí   
-  
-//  for(var i = 0; i <=60 ; i+6)
-//    console.log(i)
-    
+   
+  var tabla = []
+  {for(var i = 0; i <=10 ; i++)
+    {tabla.push(i*6)}}
+    return tabla
 }
 
 function tieneTresDigitos(numero){
@@ -169,10 +170,9 @@ function doWhile(numero) {
   //Usar el bucle do ... while.
 
   var i = 0
-  do{
-    numero = numero + 5
-    i= i+1
-  } while(i<8);
+  do{numero = numero + 5
+    i= i+1} 
+    while(i<8);
   return numero
 }
 
